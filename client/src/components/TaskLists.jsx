@@ -24,7 +24,7 @@ const TaskLists = () => {
       setLoading(true);
       try {
         const response = await axios.get(
-          "https://mobztask6-default-rtdb.firebaseio.com/tasklists"
+          "https://task7-woad.vercel.app/tasklists"
         );
         const formattedData = [];
 

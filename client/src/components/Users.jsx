@@ -16,7 +16,7 @@ const Users = () => {
     const fetchUsers = async () => {
       try {
         const response = await fetch(
-          "https://mobztask6-default-rtdb.firebaseio.com/users"
+          "https://task7-woad.vercel.app/users"
         );
         const data = await response.json();
         setRows(data);
