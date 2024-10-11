@@ -16,7 +16,7 @@ const Users = () => {
     const fetchUsers = async () => {
       try {
         const response = await fetch(
-          "http://localhost:4000/users"
+          "https://task7-t2y2.onrender.com/users"
         );
         const data = await response.json();
         setRows(data);
