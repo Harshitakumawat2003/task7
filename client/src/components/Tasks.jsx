@@ -19,7 +19,7 @@ const Tasks = () => {
       setLoading(true);
       try {
         const response = await axios.get(
-          "https://task7-woad.vercel.app/tasklists"
+          "http://localhost:4000/tasklists"
         );
         const taskData = [];
 

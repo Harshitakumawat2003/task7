@@ -16,7 +16,7 @@ const Users = () => {
     const fetchUsers = async () => {
       try {
         const response = await fetch(
-          "https://task7-woad.vercel.app/users"
+          "http://localhost:4000/users"
         );
         const data = await response.json();
         setRows(data);
